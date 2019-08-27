@@ -11,7 +11,9 @@
 ## 工具
 [Git](https://git-scm.com/downloads)  
 [Visual Paradigm](https://www.visual-paradigm.com)  
-[okhttp](https://square.github.io/okhttp/)
+[okhttp](https://square.github.io/okhttp/)  
+[flyway](https://flywaydb.org/getstarted/firststeps/maven)  
+[Lombok](https://www.projectlombok.org/)
 
 ## 脚本
 ```sql
@@ -27,4 +29,7 @@ create table USER
         primary key (ID)
 );
 
+```
+```bash
+mvn flyway:migrate
 ```
